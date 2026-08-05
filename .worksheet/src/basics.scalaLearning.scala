@@ -8,7 +8,10 @@ object scalaLearning {;import org.scalaide.worksheet.runtime.library.WorksheetSu
   val a:Int = 47;System.out.println("""a  : Int = """ + $show(a ));$skip(27); ;
   var b:String = "Kalyan";System.out.println("""b  : String = """ + $show(b ));$skip(26); ;
   
-  println(a + " " + b);$skip(35); 
+  println(a + " " + b);$skip(185); 
+  
+  //a = 33 -- reassignment to val is not possible
+  // val a = 33 -- this is declaring a val as new not reassignement and does not throw any error
   
   val x = 33;System.out.println("""x  : Int = """ + $show(x ));$skip(14); ; // type inference
   var y = 47;System.out.println("""y  : Int = """ + $show(y ));$skip(19); ;

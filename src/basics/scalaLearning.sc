@@ -10,6 +10,9 @@ object scalaLearning {
   
   println(a + " " + b)                            //> 47 Kalyan
   
+  //a = 33 -- reassignment to val is not possible
+  // val a = 33 -- this is declaring a val as new not reassignement and does not throw any error
+  
   val x = 33; // type inference                   //> x  : Int = 33
   var y = 47;                                     //> y  : Int = 47
   

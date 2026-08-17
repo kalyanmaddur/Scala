@@ -1,1 +1,10 @@
 /bin/
+target/
+project/target/
+project/project/
+.bsp/
+.idea/
+*.class
+*.cache
+*.tasty
+.cache-main

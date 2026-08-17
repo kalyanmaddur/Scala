@@ -1,5 +1,0 @@
-package basics
-
-object loops {
-  
-}
